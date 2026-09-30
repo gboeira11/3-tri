@@ -26,7 +26,6 @@ def conta_pares(lista):
 
 def maior_valor(lista):
     """Devolve o maior numero da lista. A lista nao esta vazia."""
-    pass
 maior = lista[0]
 for n in lista:
     if n > maior:
@@ -35,15 +34,13 @@ return maior
 
 def existe(lista, alvo):
     """Devolve True se o alvo esta na lista, False se nao esta."""
-    pass
-for item in lista:
-    if item == alvo:
-        return True
+if elemento == alvo:
+            return True
+            
     return False
 
 def busca_linear(lista, alvo):
     """Devolve a posicao do alvo na lista, ou -1 se ele nao estiver."""
-    pass
 for i in range(len(lista)):
     if lista[i] == alvo:
         return i
@@ -51,7 +48,6 @@ for i in range(len(lista)):
 
 def segundo_maior(lista):
     """(Desafio) Devolve o segundo maior, percorrendo a lista uma unica vez."""
-    pass
 for num in lista:
     if num > maior:
       segundo = maior
