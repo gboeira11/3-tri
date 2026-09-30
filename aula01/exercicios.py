@@ -52,3 +52,11 @@ for i in range(len(lista)):
 def segundo_maior(lista):
     """(Desafio) Devolve o segundo maior, percorrendo a lista uma unica vez."""
     pass
+for num in lista:
+    if num > maior:
+      segundo = maior
+      maior = num
+    elif num > segundo and num < maior:
+      segundo = num
+
+  return segundo if segundo != float("-inf") else None
