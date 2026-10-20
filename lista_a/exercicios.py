@@ -13,7 +13,7 @@ def conta_negativos(lista):
     a= 0
     for n in lista:
         if n < 0:
-        a = a + 1
+            a = a + 1
 
     return a
 
@@ -25,7 +25,7 @@ def media(lista):
     for n in lista:
         if n == 0:
             return 0
-        soma = n + 1
+        soma = soma + n
         media = soma / len(lista)
 
     return media
@@ -48,18 +48,17 @@ def acumulada(lista):
     LN = []
     acumulo = 0
     for n in lista:
-        acumulo.append(n) = LN [1]
-        LN = soma + n
+        acumulo = acumulo + n
+        LN.append(acumulo)
 
-    return LN.append(soma)
-
+    return LN
 
 def achata(lista_de_listas):
     """(Desafio) Junta as sublistas numa lista so.
     achata([[1, 2], [3]]) -> [1, 2, 3]"""
     resultado = []
     
-    for sublista in lista:
+    for sublista in lista_de_listas:
         for item in sublista:
             resultado.append(item)
     return resultado
