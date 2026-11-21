@@ -238,3 +238,4 @@ def primeiro_unico(lista):
             return item
 
     return None
+

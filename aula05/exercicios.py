@@ -35,3 +35,4 @@ def quicksort(lista):
         middle = [x for x in lista if x == pivot]
         right = [x for x in lista if x > pivot]
         return quicksort(left) + middle + quicksort(right)
+
